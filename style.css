@@ -147,8 +147,8 @@ header ul li a {
 
 
 .flip4 {
-  -webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
-          animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+  -webkit-animation: flip4 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+          animation: flip4 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 
 
@@ -219,3 +219,30 @@ header ul li a {
 }
 
 
+.slide-right, .slide-left {
+  width: 100%;
+}
+
+.slide-right {
+  animation: 3s slide-right;
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+.slide-left {
+  animation: 3s slide-left;
+}
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
