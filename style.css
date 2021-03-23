@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Teko', sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -45,6 +45,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 25px;
 }
 
 header .logo {
@@ -81,7 +82,7 @@ header ul li a {
 
 .content .textbox {
   position: relative;
-  font-weight: 600;
+  font-weight: 400;
   max-width: 600px;
 }
 
@@ -91,6 +92,7 @@ header ul li a {
   line-height: 1.5em;
   font-weight: 900;
   text-transform: uppercase;
+  justify-content: flex-end;
 }
 
 .content .textbox h2 span {
@@ -121,7 +123,7 @@ header ul li a {
 }
 
 .content .imgBox img {
-  max-width: 360px;
+  max-width: 560px;
 }
 
 .wordCarousel {
