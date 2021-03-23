@@ -27,4 +27,4 @@ const clearActiveBtn = ()=>{
   Array.from(buttonsWrap.children).forEach(item => {
     item.classList.remove('active');
   })
-}
+} 
