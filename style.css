@@ -25,15 +25,15 @@ section {
 
 .about{
   color: #fff;
-  display: inline-flex;
 
 }
 .about h2{
   font-size: 3em;
 }
 .about p{
-  margin-left: -60px;
-  font-size: large;
+  font-size: 1.5rem;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 header {
@@ -76,7 +76,6 @@ header ul li a {
 }
 
 .content {
-  position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -509,3 +508,4 @@ center {
 .buttons > button:not(.active):hover {
   background: rgba(255, 255, 255, 0.5);
 }
+
