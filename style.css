@@ -220,19 +220,6 @@ header ul li a {
   }
 }
 
-* {
-  box-sizing: border-box;
-}
-html {
-  background: #000000;
-}
-html,
-body,
-.container {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
 .container {
   display: flex;
   align-items: center;
@@ -246,39 +233,8 @@ body,
   border-radius: 50%;
 }
 .glow::before,
-.glow::after {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background: linear-gradient(
-    45deg,
-    #ff00ee,
-    #0000ff,
-    #00ff00,
-    #ff0000,
-    #ff00ee,
-    #0000ff,
-    #00ff00,
-    #ffff00,
-    #ff0000
-  );
-  background-size: 400%;
-  max-width: calc(300px + 4px);
-  max-height: calc(300px + 4px);
-  width: calc(300px + 4px);
-  height: calc(300px + 4px);
-  z-index: -1;
-  animation: animate 20s linear infinite;
-  border-radius: 50%;
-}
 .disable-animation::before,
-.disable-animation::after {
-  animation-play-state: paused;
-}
-.glow::after {
-  filter: blur(28px);
-}
+
 #player,
 #playlist {
   width: 243px;
