@@ -1,9 +1,3 @@
-// This area of code is only for preview purposes only
-
-document.getElementById('sourceUrl').value = "https://www.bensound.com/bensound-music/bensound-summer.mp3";
-addList();
-document.getElementById("glow").classList.remove("disable-animation");
-
 const buttonsWrap = document.querySelector(".buttons");
 const slides = document.querySelector(".inner");
 
