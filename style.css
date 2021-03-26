@@ -300,3 +300,11 @@ center {
   background: rgba(255, 255, 255, 0.5);
 }
 .cp-text{ color: rgba(255, 255, 255, 0.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
+
+.songs{
+  color: #fff;
+}
+
+.songs figcaption{
+  font-size: large;
+}
