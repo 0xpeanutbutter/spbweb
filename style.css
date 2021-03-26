@@ -31,9 +31,12 @@ section {
   font-size: 3em;
 }
 .about p{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding-left: 40px;
   padding-right: 40px;
+  font-family: fantasy;
+  font-weight: 300;
+
 }
 
 header {
@@ -307,4 +310,5 @@ center {
 
 .songs figcaption{
   font-size: large;
+  font-family: cursive;
 }
