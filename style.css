@@ -311,4 +311,16 @@ center {
 .songs figcaption{
   font-size: large;
   font-family: cursive;
+
 }
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 250px;
+  height: 40px;
+}
+audio:hover {
+  transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333);
+}
+audio::-webkit-media-controls-play-button{
+  background-color:green;}
+
