@@ -6,10 +6,14 @@
   box-sizing: border-box;
   font-family: 'Teko', sans-serif;
 }
+
+ /* html and body styling */
+
 html {
   scroll-behavior: smooth;
 }
 
+ /* each section styling */
 
 section {
   position: relative;
@@ -23,8 +27,10 @@ section {
   transition: 0.5s;
 }
 
+ /* about section styling*/
+
 .about{
-  color: #fff;
+  color: rgb(230, 230, 230);
 
 }
 .about h2{
@@ -34,10 +40,27 @@ section {
   font-size: 1.6rem;
   padding-left: 40px;
   padding-right: 40px;
-  font-family: fantasy;
-  font-weight: 300;
-
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
 }
+
+ /* audio player styling*/
+
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 550px;
+  height: 40px;
+}
+
+audio:hover {
+  transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333);
+}
+
+audio::-webkit-media-controls-play-button{
+  background-color:rgb(5, 77, 5);
+}
+
+ /* header styling*/
 
 header {
   position: absolute;
@@ -72,11 +95,13 @@ header ul li {
 
 header ul li a {
   display: inline-block;
-  color: #fff;
+  color: rgb(230, 230, 230);
   font-weight: 400px;
   margin-left: 40px;
   text-decoration: none;
 }
+
+ /*home section styling */
 
 .content {
   width: 100%;
@@ -92,7 +117,7 @@ header ul li a {
 }
 
 .content .textbox h2 {
-  color: #fff;
+  color: rgb(230, 230, 230);
   font-size: 4em;
   line-height: 1.5em;
   font-weight: 900;
@@ -105,13 +130,13 @@ header ul li a {
 }
 
 .content .textbox p {
-  color: #fff;
+  color: rgb(230, 230, 230);;
 }
 .content .textbox a {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background: #fff;
+  background: rgb(230, 230, 230);;
   color: #111;
   border-radius: 40px;
   font-weight: 600;
@@ -134,7 +159,7 @@ header ul li a {
 .wordCarousel {
   font-size: 26px;
   font-weight: 100;
-  color: #eee;
+  color: rgb(230, 230, 230);
 }
 
 .wordCarousel div {
@@ -223,7 +248,7 @@ header ul li a {
   }
 }
 
-
+ /*gallery styling */
 
 center {
   -webkit-box-align: center;
@@ -296,31 +321,27 @@ center {
 }
 
 .buttons > button.active {
-  background: white;
+  background: rgb(230, 230, 230);;
 }
 
 .buttons > button:not(.active):hover {
   background: rgba(255, 255, 255, 0.5);
 }
-.cp-text{ color: rgba(255, 255, 255, 0.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
+
+/* songs sections syling */
 
 .songs{
-  color: #fff;
+  color: rgb(173, 170, 170);
 }
 
 .songs figcaption{
   font-size: large;
   font-family: cursive;
+}
 
+/* footer styling */
+
+.cp-text{
+  color: rgba(255, 255, 255, 0.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);
 }
-audio {
-  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
-  width: 250px;
-  height: 40px;
-}
-audio:hover {
-  transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333);
-}
-audio::-webkit-media-controls-play-button{
-  background-color:green;}
 
